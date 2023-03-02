@@ -1,0 +1,148 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header button {
+    background-color: #f9dd00;
+    padding: 20px;
+    border: none;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.header.icons {
+    display: flex;
+    gap: 20px;
+}
+
+.photo {
+    display: flex;
+    background-image: url(/WhatsApp\ Image\ 2023-03-01\ at\ 15.18.21.jpeg);
+    background-size: cover;
+    height: 80vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.navbars ul {
+    display: flex;
+    gap: 30px;
+    padding-left: 280px;
+}
+
+.navbars li {
+    list-style-type: none;
+    font-size: 20px;
+    font-family: visby cf, Sans-serif !important;
+    font-weight: 700;
+    color: white;
+}
+
+.title1 {
+    font-size: 50px;
+    font-weight: 800;
+    text-transform: lowercase;
+    line-height: 1px;
+    font-family: visby cf, Sans-serif;
+
+}
+
+.title2 {
+    font-size: 38px;
+    font-weight: 300;
+    line-height: .1em;
+    font-family: visby cf, Sans-serif;
+
+}
+
+#education {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.card {
+    padding: 50px;
+
+}
+
+.card {
+
+    display: flex;
+    margin-right: 100px;
+    margin-left: 150px;
+
+}
+
+.card1 {
+    padding: 20px;
+    border: 1px black solid;
+    background-color: white;
+    width: 47%;
+}
+
+.card1:hover {
+    background-color: crimson;
+}
+
+.card2 {
+    padding: 20px;
+    border: 1px black solid;
+    background-color: white;
+    width: 47%;
+}
+
+.card2:hover {
+    background-color: rgb(115, 0, 255);
+}
+
+.card3 {
+    padding: 20px;
+    border: 1px black solid;
+    background-color: white;
+    width: 47%;
+}
+
+.card3:hover {
+    background-color: rgb(128, 0, 55);
+}
+
+.card4 {
+    padding: 20px;
+    border: 1px black solid;
+    background-color: white;
+    width: 47%;
+}
+
+.card4:hover {
+    background-color: rgb(255, 123, 0);
+}
+
+.card1 {
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Visby CF", Sans-serif;
+}
+
+.card2 {
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Visby CF", Sans-serif;
+}
+
+.card3 {
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Visby CF", Sans-serif;
+}
+
+.card4 {
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Visby CF", Sans-serif;
+}
